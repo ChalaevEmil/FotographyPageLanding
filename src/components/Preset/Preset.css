@@ -1,0 +1,136 @@
+.preset{
+    background-color: #F4F3F0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.preset__title-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-bottom: 47px;
+}
+
+.preset__title-image{
+    width: 160px;
+    height: 19px;
+    margin-bottom: 15px;
+}
+
+.preset__title{
+    margin: 0;
+    padding: 0;
+    font-family: Source Serif Pro;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38.4px;
+    color: #DB343B;
+    margin-bottom: 11px;
+}
+
+.preset__title-paragraph{
+    margin: 0;
+    padding: 0;
+    width: 591px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: center;
+}
+
+.preset__list-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    width: calc(100% - 272px);
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.preset__item{
+    max-width: 379px;
+    height: 438px;
+}
+
+.preset__item-image{
+    margin: 0;
+    padding: 0;
+    margin-bottom: -4px;
+    max-width: 379px;
+    max-height: 252px;
+    border-style: none;
+}
+
+.preset__item-container{
+    margin: 0;
+    padding: 0;
+    height: 186px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: white;
+}
+
+.preset__item-title{
+    margin: 0;
+    padding: 0;
+    font-family: Source Serif Pro;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;   
+    color: #3A5F56;
+    margin-bottom: 6px;
+    padding-left: 30px;
+}
+
+.preset__item-paragraph{
+    width: 317px;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    color: #3A5F56;
+    padding-left: 30px;
+}
+
+.preset__link{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23.8px;
+    text-align: left;
+    color: #3A5F56;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.preset__link:hover{
+    padding-bottom: 3px;
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.background-color{
+    position: absolute;
+    width: 516px;
+    height: 501px;
+    top: 587px;
+    left: 1137px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(219, 52, 59, 0.296) 0%, rgba(219, 52, 59, 0) 100%);
+}
